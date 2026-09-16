@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -63,9 +64,14 @@ export default function Home() {
         {/* Hero */}
         <section className="py-16 sm:py-24">
           <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-center">
-            <div className="flex size-20 shrink-0 items-center justify-center rounded-2xl border bg-muted/40 text-2xl font-semibold tracking-tight">
-              DS
-            </div>
+            <Image
+              src="/avatar.jpg"
+              alt="Donnukrit Satirakul"
+              width={96}
+              height={96}
+              priority
+              className="size-24 shrink-0 rounded-2xl border object-cover shadow-sm"
+            />
             <div>
               <p className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Sparkles className="size-4" /> Hello, I&apos;m
