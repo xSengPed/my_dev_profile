@@ -14,20 +14,7 @@ import {
   MapPin,
   Sparkles,
 } from "lucide-react";
-import { SiDart, SiGo, SiTypescript } from "react-icons/si";
 import type { IconType } from "react-icons";
-
-const projectLangIcon: Record<string, IconType> = {
-  Dart: SiDart,
-  Go: SiGo,
-  TypeScript: SiTypescript,
-};
-
-const langColor: Record<string, string> = {
-  Dart: "#0175C2",
-  Go: "#00ADD8",
-  TypeScript: "#3178C6",
-};
 
 function SectionTitle({
   children,
@@ -267,47 +254,6 @@ export default function Home() {
                 </div>
               </div>
             ))}
-          </div>
-        </section>
-
-        <Separator />
-
-        {/* Projects */}
-        <section className="py-14">
-          <SectionTitle icon={Code2}>Selected Projects</SectionTitle>
-          <div className="mt-6 grid gap-3 sm:grid-cols-2">
-            {resume.selectedProjects.map((project) => {
-              const LangIcon = projectLangIcon[project.language];
-              return (
-                <a
-                  key={project.name}
-                  href={project.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="group rounded-xl border bg-card/50 p-4 transition-colors hover:bg-muted/50"
-                >
-                  <div className="flex items-center justify-between gap-3">
-                    <span className="inline-flex min-w-0 items-center gap-2">
-                      {LangIcon && (
-                        <LangIcon
-                          className="size-5 shrink-0"
-                          style={{ color: langColor[project.language] }}
-                          aria-hidden
-                        />
-                      )}
-                      <span className="truncate text-base font-medium">{project.name}</span>
-                    </span>
-                    <ArrowUpRight className="size-4 shrink-0 text-muted-foreground transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-                  </div>
-                  <p className="mt-1.5 text-sm text-muted-foreground">
-                    {project.description}
-                  </p>
-                  <p className="mt-2 text-[0.7rem] text-muted-foreground/80">
-                    {project.language}
-                  </p>
-                </a>
-              );
-            })}
           </div>
         </section>
 
