@@ -93,7 +93,7 @@ export default function Home() {
               <MapPin className="size-3.5" /> {resume.location}
             </span>
             <span className="inline-flex items-center gap-1.5">
-              <Building2 className="size-3.5" /> SCB TechX
+              <Building2 className="size-3.5" /> ScbX (PointX)
             </span>
             <span className="inline-flex items-center gap-1.5">
               <GraduationCap className="size-3.5" /> Prince of Songkla University

@@ -6,7 +6,7 @@ export const resume = {
   github: "https://github.com/xSengPed",
   website: "https://donnukrit.test-d.pro",
   summary:
-    "Dedicated Flutter Developer currently working with SCB TechX, focused on creating robust, scalable mobile applications. Previously at Exvention, contributing to Thailand's governance projects such as Paotang (Digital Lottery) in collaboration with Accenture (Thailand) and Krungthai Bank. Beyond Flutter, also works with React, React Native, Next.js and Vue — passionate about platform integration and seamless user experiences across devices.",
+    "Dedicated Flutter Developer currently working with ScbX (PointX), focused on creating robust, scalable mobile applications. Previously at Exvention, contributing to Thailand's governance projects such as Paotang (Digital Lottery) in collaboration with Accenture (Thailand) and Krungthai Bank. Beyond Flutter, also works with React, React Native, Next.js and Vue — passionate about platform integration and seamless user experiences across devices.",
   experience: [
     {
       role: "Senior Mobile Developer",

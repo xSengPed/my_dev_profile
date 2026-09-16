@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Donnukrit Satirakul — Senior Mobile Developer (Flutter)",
     description:
-      "Flutter-first mobile engineer building robust, scalable applications at SCB TechX.",
+      "Flutter-first mobile engineer building robust, scalable applications at ScbX (PointX).",
     type: "profile",
   },
 };
