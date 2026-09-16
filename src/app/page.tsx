@@ -67,10 +67,10 @@ export default function Home() {
             <Image
               src="/avatar.jpg"
               alt="Donnukrit Satirakul"
-              width={96}
-              height={96}
+              width={128}
+              height={128}
               priority
-              className="size-24 shrink-0 rounded-2xl border object-cover shadow-sm"
+              className="size-32 shrink-0 rounded-full border object-cover shadow-sm"
             />
             <div>
               <p className="flex items-center gap-2 text-sm text-muted-foreground">
